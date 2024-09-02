@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variabel", "Variabel\Variabel.csproj", "{12B5DD89-94F0-4ED0-9CB4-D5AF48663784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariabelenConstanten", "VariabelenConstanten\VariabelenConstanten.csproj", "{0CBE9A12-01B8-439A-897A-CBB1C1F84E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypeRange", "DataTypeRange\DataTypeRange.csproj", "{384453BF-981D-4A96-B70F-AE59B7DB7CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleInPut", "..\ConsoleInPut\ConsoleInPut.csproj", "{E6A7CDAA-8438-4212-9A44-5096F894BD0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converdata", "..\Na1uur\Converdata.csproj", "{49C0F9F7-31A4-439C-92D6-8A723A12D06A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorVariable", "ColorVariable\ColorVariable.csproj", "{F62678AE-D39D-4DCC-8A43-8CD30559E9FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B5DD89-94F0-4ED0-9CB4-D5AF48663784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B5DD89-94F0-4ED0-9CB4-D5AF48663784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B5DD89-94F0-4ED0-9CB4-D5AF48663784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B5DD89-94F0-4ED0-9CB4-D5AF48663784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CBE9A12-01B8-439A-897A-CBB1C1F84E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBE9A12-01B8-439A-897A-CBB1C1F84E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBE9A12-01B8-439A-897A-CBB1C1F84E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBE9A12-01B8-439A-897A-CBB1C1F84E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384453BF-981D-4A96-B70F-AE59B7DB7CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384453BF-981D-4A96-B70F-AE59B7DB7CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384453BF-981D-4A96-B70F-AE59B7DB7CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384453BF-981D-4A96-B70F-AE59B7DB7CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A7CDAA-8438-4212-9A44-5096F894BD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A7CDAA-8438-4212-9A44-5096F894BD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A7CDAA-8438-4212-9A44-5096F894BD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A7CDAA-8438-4212-9A44-5096F894BD0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C0F9F7-31A4-439C-92D6-8A723A12D06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C0F9F7-31A4-439C-92D6-8A723A12D06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C0F9F7-31A4-439C-92D6-8A723A12D06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C0F9F7-31A4-439C-92D6-8A723A12D06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62678AE-D39D-4DCC-8A43-8CD30559E9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62678AE-D39D-4DCC-8A43-8CD30559E9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62678AE-D39D-4DCC-8A43-8CD30559E9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62678AE-D39D-4DCC-8A43-8CD30559E9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E91E7487-ED3B-4CC4-B723-EE0F08CB5282}
+	EndGlobalSection
+EndGlobal

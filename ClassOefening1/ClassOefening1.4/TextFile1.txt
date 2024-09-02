@@ -1,0 +1,59 @@
+﻿Informasi tambahan:
+Kue ulang tahun memiliki sejumlah lilin. Dengan konstruktor, Anda dapat membuat kue baru dengan
+sejumlah lilin.
+1) Lilin dinyalakan oleh orang tua (class Parent).
+2) Lilin-lilin ditiup oleh anak (kelas Anak).
+
+KELAS KUE ULANG TAHUN:
+
+Ketika metode LightCandle() dipanggil, variabel turunannya haruslah
+numberOfBurningCandle harus bertambah 1. Di sisi lain, jika metode BlowOutCandle dipanggil
+dipanggil, variabel ini harus berkurang 1.
+
+KELAS ORANG TUA:
+
+Kelas ini hanya berisi satu metode: LightAllCandles(), untuk menyalakan semua lilin.
+Dengan perulangan for, Anda dapat dengan mudah menyalakan (semua) lilin.
+
+KELAS ANAK:
+
+Kelas anak memiliki sebuah metode: BlowOutAllCandles(), yang mirip dengan metode LightAllCandles(),
+hanya saja di sini lilin ditiup.
+PROGRAM UTAMA:
+Terakhir, buatlah sebuah program utama, di mana Anda menggunakan semua kelas.
+1) Buatlah objek induk, objek anak dan objek kue ulang tahun.
+2) Cetak jumlah lilin dan lilin yang menyala.
+3) Induk menyalakan semua lilin.
+4) Cetak kembali jumlah lilin yang menyala.
+5) Biarkan anak meniup lilin.
+6) Cetak kembali jumlah lilin yang menyala.
+SELAMAT BERSENANG-SENANG!
+-----------------------------------------------------------------------------------------------------------
+Een verjaardagstaart heeft een aantal kaarsjes. Met de constructor kan je een nieuwe taart maken met
+een bepaald aantal kaarsen.
+1) De kaarsen worden aangestoken door de ouders (class Parent).
+2) De kaarsen worden uitgeblazen door het kind (class Kid).
+
+CLASS BIRTHDAYCAKE:
+
+Als de methode LightCandle() wordt aangesproken moet de instance variabele
+numberOfBurningCandles met 1 verhogen. Anderzijds als de methode BlowOutCandle wordt
+aangesproken moet deze variabele met 1 verlagen.
+
+CLASS PARENT:
+
+Deze klasse bevat slecht een methode: LightAllCandles(), om alle kaarsen aan te steken.
+Met een for- lusje kan je eenvoudig (alle) kaarsjes aansteken.
+
+CLASS KID:
+
+Het kind heeft een methode: BlowOutAllCandles(), deze is gelijkaardig aan de methode LightAllCandles(),
+alleen worden hier de kaarsjes uitgeblazen.
+HOOFDPROGRAMMA:
+Maak tenslotte een hoofdprogramma aan, waarin je alle klassen gebruikt.
+1) Maak een parent object, kid object en een birthdaycake object.
+2) Print het aantal kaarsjes en brandende kaarsjes af.
+3) De ouder steekt alle kaarsjes aan.
+4) Print opnieuw het aantal brandende kaarsjes af.
+5) Laat het kindje de kaarsjes uitblazen.
+6) Print opnieuw het aantal brandende kaarsjes af.

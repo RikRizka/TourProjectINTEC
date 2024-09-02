@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderDemo", "StringBuilderDemo\StringBuilderDemo.csproj", "{CD286554-E5FD-4C62-AC45-F66DE8526F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBvsString", "SBvsString\SBvsString.csproj", "{E4FC06EC-561F-4FE7-A583-589D1BCC3128}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD286554-E5FD-4C62-AC45-F66DE8526F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD286554-E5FD-4C62-AC45-F66DE8526F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD286554-E5FD-4C62-AC45-F66DE8526F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD286554-E5FD-4C62-AC45-F66DE8526F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FC06EC-561F-4FE7-A583-589D1BCC3128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FC06EC-561F-4FE7-A583-589D1BCC3128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FC06EC-561F-4FE7-A583-589D1BCC3128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FC06EC-561F-4FE7-A583-589D1BCC3128}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DEF060A-C350-43A8-AB9A-0B4350740269}
+	EndGlobalSection
+EndGlobal

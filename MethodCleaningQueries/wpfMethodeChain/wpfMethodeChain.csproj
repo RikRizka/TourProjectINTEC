@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MethodCleaningQueries\MethodCleaningQueries.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BierenLibrary">
+      <HintPath>..\..\..\..\..\..\..\Temp\BierenLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

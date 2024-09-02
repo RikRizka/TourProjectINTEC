@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aritmatic", "Aritmatic\Aritmatic.csproj", "{FEB729DF-F97D-4F06-83BB-0BB8BB696DE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnkelmanDekenan", "EnkelmanDekenan\EnkelmanDekenan.csproj", "{89D3FB9E-1628-4205-99E5-6C1348A9F770}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB729DF-F97D-4F06-83BB-0BB8BB696DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB729DF-F97D-4F06-83BB-0BB8BB696DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB729DF-F97D-4F06-83BB-0BB8BB696DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB729DF-F97D-4F06-83BB-0BB8BB696DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D3FB9E-1628-4205-99E5-6C1348A9F770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D3FB9E-1628-4205-99E5-6C1348A9F770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D3FB9E-1628-4205-99E5-6C1348A9F770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D3FB9E-1628-4205-99E5-6C1348A9F770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7BC5BBD-81E1-4E14-B22A-1AD794697112}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+﻿@model CalculatorMVC.Models.FutureValueModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+<img src="/images/logo.jpg" />
+<h1>Index</h1>
+<h4>FutureValueModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Our Web app is great!</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+
+        </div>
+        <form asp-action="Index" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MonthlyInvestment" class="control-label"></label>
+                <input asp-for="MonthlyInvestment" class="form-control" />
+                <span asp-validation-for="@Model.MonthlyInvestment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="YearlyInterestRate" class="control-label"></label>
+                <input asp-for="YearlyInterestRate" class="form-control" />
+                <span asp-validation-for="@Model.YearlyInterestRate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Years" class="control-label"></label>
+                <input asp-for="Years" class="form-control" />
+                <span asp-validation-for="@Model.Years" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="conrol_label col-3">Future Value:</label>
+                <input value="@ViewBag.FutureValue" readonly class="from-control col-3" />
+            </div>
+            <div class="form-group">
+                <input type="submit" asp-action="index" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

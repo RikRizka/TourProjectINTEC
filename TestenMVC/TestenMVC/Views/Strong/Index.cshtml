@@ -1,0 +1,23 @@
+﻿
+@model Product
+<h1> Strong View</h1>
+@{
+    
+}
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Naam</th>
+        <th>Prijs</th>
+    </tr>
+    @foreach (var item in Model.GetProduct())
+    {
+        <tr>
+        <td>@item.Id</td>
+        <td>@item.Naam</td>
+        <td>@item.Prijs</td>
+        </tr>
+    }
+    
+</table>
+<tfoot>@ViewBag.Calculate</tfoot>

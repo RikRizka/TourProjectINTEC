@@ -1,0 +1,25 @@
+﻿@{
+    var items = new List<string> { "Apel,Pear,Banaan,KontolAlain,Kenan" };
+}
+<h1>This is come from list</h1>
+<ul>
+    @foreach (var item in items)
+    {
+        <li>
+            @item
+        </li>
+    };
+
+</ul>
+@{
+    int max = 50;
+}
+<ul>
+    @for (int i = 1; i <= max; i++)
+    {
+        if (i % 2 != 0)
+        {
+            <li>On event getals : @i</li>
+        }
+    }
+</ul>

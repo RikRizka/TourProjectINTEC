@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeDll", "ConsumeDll\ConsumeDll.csproj", "{9DC2C9C0-A8F7-4CC4-814C-639B8A267611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DC2C9C0-A8F7-4CC4-814C-639B8A267611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC2C9C0-A8F7-4CC4-814C-639B8A267611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC2C9C0-A8F7-4CC4-814C-639B8A267611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC2C9C0-A8F7-4CC4-814C-639B8A267611}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59B6D360-66E9-4145-A3A1-45FA036DF9B9}
+	EndGlobalSection
+EndGlobal

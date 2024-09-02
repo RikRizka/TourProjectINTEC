@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitaleMediaBibliotheek", "DigitaleMediaBibliotheek\DigitaleMediaBibliotheek.csproj", "{D3192B1A-62B3-4F46-AC32-3F7243E447A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3192B1A-62B3-4F46-AC32-3F7243E447A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3192B1A-62B3-4F46-AC32-3F7243E447A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3192B1A-62B3-4F46-AC32-3F7243E447A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3192B1A-62B3-4F46-AC32-3F7243E447A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02B70790-0EE8-4DCE-A488-9F9448031A25}
+	EndGlobalSection
+EndGlobal

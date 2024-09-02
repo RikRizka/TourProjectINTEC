@@ -1,0 +1,25 @@
+﻿@model MVCProjectPelelangan.Models.ResponsCostumers
+
+@{
+    ViewData["Title"] = "FormAuction";
+}
+<html>
+<h1>Form Costumer</h1>
+<body>  
+    @using (Html.BeginForm())
+    {
+        <p>Your name: @Html.TextBoxFor(x => x.Name)@Html.ValidationMessageFor(x=>x.Name)</p>
+        <p>Your Email: @Html.TextBoxFor(x => x.Email)@Html.ValidationMessageFor(x=>x.Email)</p>
+        <p>Your Phone number: @Html.TextBoxFor(x => x.Gsm)@Html.ValidationMessageFor(x=>x.Gsm)</p>
+        <p>Your nominam: @Html.TextBoxFor(x => x.Nominal)@Html.ValidationMessageFor(x=>x.Nominal)</p>
+        <p>
+            Chose your confirmation:
+           @Html.DropDownListFor(x => x.ConfirmationAuction, new[]{
+        new SelectListItem(){Text = "If my Auction have been chosed the item will send to my address", Value = bool.TrueString},
+        new SelectListItem(){Text = "If my Auction have been chosed the item will i will send the money", Value = bool.TrueString},
+            }, "PLease Chose")@Html.ValidationMessageFor(x=>x.ConfirmationAuction)
+             <input type="submit" value= "SUBMIT" />
+        </p>
+    }
+</body>
+</html>
